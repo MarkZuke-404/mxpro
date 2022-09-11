@@ -66,12 +66,8 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers = {
     'Content-Type': 'application/json; charset=utf-8',
     'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36' }).json()['country_name'].upper()
 
-def linex():
-    os.system
-
-
 def logo():
-logo= """
+logo = """
  ____  ____  _  __ _  ____ 
 /  __\/  _ \/ |/ // \/  __\
 |  \/|| / \||   / | || | //
