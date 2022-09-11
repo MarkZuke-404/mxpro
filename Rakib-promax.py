@@ -1,8 +1,6 @@
 # Source Generated with Decompyle++
 # File: out.pyc (Python 2.7)
 
-print '\x1b[0;97m[!]Wait a moment Checking Network and License'
-
 try:
     import os
     import sys
