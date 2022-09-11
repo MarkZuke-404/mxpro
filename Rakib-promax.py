@@ -67,21 +67,30 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36' }).json()['country_name'].upper()
 
 def linex():
-    os.system(" ======================================"
+    os.system
 
 
 def logo():
-    os.system("__  __            _      _____       _    _ _     
- |  \/  |          | |    |  __ \     | |  (_) |    
- | \  / | __ _ _ __| | __ | |__) |__ _| | ___| |__  
- | |\/| |/ _` | '__| |/ / |  _  // _` | |/ / | '_ \ 
- | |  | | (_| | |  |   <  | | \ \ (_| |   <| | |_) |
- |_|  |_|\__,_|_|  |_|\_\ |_|  \_\__,_|_|\_\_|_.__/ 
-Author  : (MR RAKiB)
-Github  : Saiful Hasan
-Fb ID   : https://facebook.com/Izt Ariyan Sakib
+logo1 = """
+ ____  ____  _  __ _  ____ 
+/  __\/  _ \/ |/ // \/  __\
+|  \/|| / \||   / | || | //
+|    /| |-|||   \ | || |_\\
+\_/\_\\_/ \|\_|\_\\_/\____/
+                           
+╔══──────────────────────────
 
+║ AUTHOR  🌐 ANEEX RXJX  
 
+║ GITHUB ⚛ https://github.com/ANEEX12                                   
+
+║ FACEBOOK ♾ https://facebook.com/ANEEXAWAIX0011
+
+║ WHATSAPP  🔰 +40373808240
+
+╚══─────────────────────────                                                                                       
+"""
+                                                                                   
 
 def main():
     os.system('clear')
